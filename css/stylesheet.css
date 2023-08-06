@@ -124,4 +124,9 @@ header {
   .top {
     text-align: center;
     background-color: rgba(34, 49, 52, 0.9);
+    color: #f7f7f7;
+    line-height: 70px;
+    width: 100%;
+    margin-top: 20px;
+    margin-top: -20px;
   }
