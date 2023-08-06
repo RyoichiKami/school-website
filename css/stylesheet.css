@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0px 100px 0px;
+    background-image: url(https://i.gyazo.com/324a125dacdf68b185c2c06220f158ba.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+
+  .tomogaku {
+    background-color: #239b76;
+  }
+
+  .youtube {
+    background-color: crimson;
+  }
+  .btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+  }
+
+  .menu-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    /* text-alignをcenterに指定してください */
+  text-align:center;
+  }  
+
+.menu {
+  float: left;
+  width: 25%;
+}
+
+  .heading {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #5f5d60;
+  }
+
+  .heading h2 {
+    font-weight: normal;
+
+  }
+
+  
