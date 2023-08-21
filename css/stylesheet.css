@@ -58,13 +58,6 @@ header {
     margin: 10px 0;
   }
 
-  .tomogaku {
-    background-color: #239b76;
-  }
-
-  .youtube {
-    background-color: crimson;
-  }
   .btn {
     padding: 8px 24px;
     color: white;
@@ -92,8 +85,12 @@ header {
     padding-bottom: 80px;
     background-color: #f7f7f7;
     /* text-alignをcenterに指定してください */
-    text-align:center;
   }   
+
+.menus {
+  text-align: center;
+  font-size: small;
+}
 
 .menu a {
   color: #000;
@@ -117,6 +114,19 @@ header {
     font-weight: normal;
   }
 
+.message-wrapper {
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+}
+
+.main-text h3 {
+  font-size: 25px;
+  color: #16a6f3;
+}
+
   .top {
     text-align: center;
     background-color: rgba(34, 49, 52, 0.9);
@@ -126,3 +136,5 @@ header {
     margin-top: 20px;
     margin-top: -20px;
   }
+
+  
