@@ -15,24 +15,15 @@ header {
   background-color: rgba(34, 49, 52, 0.9);
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
+.container p {
+  color: #f7f7f7;
+  line-height: normal;
 }
 
 .header-left {
   float: left;
 }
 
-.header-right {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
-}
-
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
 
 .header-right a {
   line-height: 50px;
@@ -40,11 +31,10 @@ header {
   color: white;
   display: block;
 }
-
 .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .top-wrapper {
@@ -106,19 +96,25 @@ header {
   }  
 
 .menu {
-  float: left;
-  width: 25%;
+ float: left;
+ width: 25%;
+}
+
+
+.menu a {
+  color: #000;
+  font-size: large;
 }
 
   .heading {
     padding-top: 50px;
     padding-bottom: 10px;
     color: #5f5d60;
+    
   }
 
   .heading h2 {
     font-weight: normal;
-
   }
 
   .top {
