@@ -90,6 +90,8 @@ header {
 .menus {
   text-align: center;
   font-size: small;
+  background-color: #f7f7f7;
+  opacity: 1;
 }
 
 .menu a {
