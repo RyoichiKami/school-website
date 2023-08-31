@@ -122,11 +122,18 @@ header {
 
 .main {
   text-align: center;
+  position: relative;
 }
 
 .main-text h3 {
   font-size: 25px;
   color: #16a6f3;
+}
+
+.main img {
+  position: absolute;
+  left: 100px;
+  top: -80px;
 }
 
 .box{
